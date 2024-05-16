@@ -12,7 +12,7 @@ const uri = process.env.MONGODB_URI;
 
 app.use(cors());
 
-mongoose.connect(uri);
+mongoose.connect("uri");
 
 const db = mongoose.connection;
 
